@@ -1,0 +1,70 @@
+name: portfolio
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+  # Animations
+  animate_do: ^3.3.4
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # UI
+  google_fonts: ^6.2.1
+  glassmorphism: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  visibility_detector: ^0.4.0+2
+  smooth_page_indicator: ^1.1.0
+  shimmer: ^3.0.0
+  url_launcher: ^6.3.0
+  font_awesome_flutter: ^10.7.0
+
+  # HTTP
+  http: ^1.2.0
+  dio: ^5.4.3+1
+
+  # Utils
+  universal_html: ^2.2.4
+  js: ^0.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/profile.png
+    - assets/images/profile2.png
+    - assets/pdf/resume.pdf
+
+  fonts:
+    - family: ClashDisplay
+      fonts:
+        - asset: assets/fonts/ClashDisplay-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/ClashDisplay-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ClashDisplay-Semibold.ttf
+          weight: 600
+        - asset: assets/fonts/ClashDisplay-Bold.otf
+          weight: 700
