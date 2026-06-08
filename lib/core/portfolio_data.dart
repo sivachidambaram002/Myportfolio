@@ -92,37 +92,39 @@ class PortfolioData {
 
   static final List<ProjectModel> projects = [
     ProjectModel(
-      title: 'Kancaroo Car Carriers',
-      subtitle: 'Customer App',
-      description:
-          'Production-grade customer-facing Flutter app for car carrier booking with real-time status tracking, seamless payment integration, and push notification support.',
-      techStack: ['Flutter', 'Riverpod', 'REST APIs', 'Firebase', 'Razorpay'],
-      features: [
-        'OTP Login & Authentication',
-        'Multi-step Booking Forms',
-        'Real-time Booking Status',
-        'Push Notifications (FCM)',
-        'Razorpay Payment Gateway',
-        'Clean Architecture (MVVM)',
-      ],
-      status: 'Live on Play Store',
-    ),
+        title: 'Kancaroo Car Carriers',
+        subtitle: 'Customer App',
+        description:
+            'Production-grade customer-facing Flutter app for car carrier booking with real-time status tracking, seamless payment integration, and push notification support.',
+        techStack: ['Flutter', 'Riverpod', 'REST APIs', 'Firebase', 'Razorpay'],
+        features: [
+          'OTP Login & Authentication',
+          'Multi-step Booking Forms',
+          'Real-time Booking Status',
+          'Push Notifications (FCM)',
+          'Razorpay Payment Gateway',
+          'Clean Architecture (MVVM)',
+        ],
+        status: 'Live on Play Store',
+        demoUrl:
+            'https://play.google.com/store/apps/details?id=com.kancaroo.customerapp'),
     ProjectModel(
-      title: 'Kancaroo Car Carriers',
-      subtitle: 'Driver App',
-      description:
-          'Driver-side Flutter application for managing car pickup and delivery operations with Google Maps integration, live tracking, and route optimization.',
-      techStack: ['Flutter', 'Riverpod', 'Google Maps API', 'REST APIs'],
-      features: [
-        'Real-time Location Tracking',
-        'Google Maps Integration',
-        'Driver Status Management',
-        'Delivery Tracking Dashboard',
-        'Route Optimization',
-        'Booking Updates via API',
-      ],
-      status: 'Live on Play Store',
-    ),
+        title: 'Kancaroo Car Carriers',
+        subtitle: 'Driver App',
+        description:
+            'Driver-side Flutter application for managing car pickup and delivery operations with Google Maps integration, live tracking, and route optimization.',
+        techStack: ['Flutter', 'Riverpod', 'Google Maps API', 'REST APIs'],
+        features: [
+          'Real-time Location Tracking',
+          'Google Maps Integration',
+          'Driver Status Management',
+          'Delivery Tracking Dashboard',
+          'Route Optimization',
+          'Booking Updates via API',
+        ],
+        status: 'Live on Play Store',
+        demoUrl:
+            'https://play.google.com/store/apps/details?id=com.kancaroo.kancaroo_driver_app'),
     ProjectModel(
       title: 'Hotel Tips Management',
       subtitle: 'Staff Analytics App',
